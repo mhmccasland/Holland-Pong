@@ -53,7 +53,7 @@ export var scoreSound = new soundFile("silence.mp3");
 soundArray.push(scoreSound);
 
 export var ambientSound = new soundFile("gratitude.mp3");
-soundArray.play(ambientSound);
+soundArray.push(ambientSound);
 ambientSound.player.loop = true; //turn on looping
 ambientSound.player.volume.value = -15; //turn down volume
 
