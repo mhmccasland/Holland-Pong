@@ -56,6 +56,7 @@ export var ambientSound = new soundFile("gratitude.mp3");
 soundArray.push(ambientSound);
 ambientSound.player.loop = true; //turn on looping
 ambientSound.player.volume.value = -15; //turn down volume
+ambientSound.player.speed.value = 1
 
 export var adventureMusic = new soundFile("silence.mp3");
 soundArray.push(adventureMusic);
