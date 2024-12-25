@@ -12,7 +12,7 @@ import {
   wallSound,
   paddleSound,
   scoreSound,
-  ambientSound,
+  ambientMusic,
   adventureMusic,
   villageMusic,
   playDeferredSounds
@@ -61,7 +61,7 @@ paddlesReset();
 //END OF GAME OBJECTS///
 
 //STARTUP EVENTS
-ambientSound.play();
+ambientMusic.play();
 
 //RUNNING PROCESSES (updated every frame of the game)
 function gameProcess() {
@@ -74,7 +74,7 @@ function gameProcess() {
     leftScoreHigher.turnOn();
   }
 
-  ambientSound.player.playbackRate = scalerange(
+  ambientMusic.player.playbackRate = scalerange(
     Math.abs(ball.direction.x),
     0,
     5,
