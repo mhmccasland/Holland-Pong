@@ -62,6 +62,7 @@ paddlesReset();
 
 //STARTUP EVENTS
 ambientMusic.play();
+console.log()
 
 //RUNNING PROCESSES (updated every frame of the game)
 function gameProcess() {
