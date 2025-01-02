@@ -52,17 +52,17 @@ soundArray.push(paddleSound);
 export var scoreSound = new soundFile("item get.mp3");
 soundArray.push(scoreSound);
 
-export var ambientMusic = new soundFile("farewell.mp3");
+export var ambientMusic = new soundFile("silence.mp3");
 soundArray.push(ambientMusic);
 ambientMusic.player.loop = true; //turn on looping
 ambientMusic.player.volume.value = -10; //turn down volume
 
-export var adventureMusic = new soundFile("silence.mp3");
+export var adventureMusic = new soundFile("farewell.mp3");
 soundArray.push(adventureMusic);
 adventureMusic.player.loop = true;
 adventureMusic.player.volume.value = -16;
 
-export var villageMusic = new soundFile("silence.mp3");
+export var villageMusic = new soundFile("farewell.mp3");
 soundArray.push(villageMusic);
 villageMusic.player.loop = true;
 villageMusic.player.volume.value = -16;
