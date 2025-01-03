@@ -52,7 +52,7 @@ soundArray.push(paddleSound);
 export var scoreSound = new soundFile("item get.mp3");
 soundArray.push(scoreSound);
 
-export var ambientMusic = new soundFile("farewell slow.mp3");
+export var ambientMusic = new soundFile("farewell.mp3");
 soundArray.push(ambientMusic);
 ambientMusic.player.loop = true; //turn on looping
 ambientMusic.player.volume.value = -10; //turn down volume
