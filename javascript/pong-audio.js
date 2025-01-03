@@ -45,14 +45,16 @@ export var soundArray = []; //list of sounds loaded
 
 export var wallSound = new soundFile("tear vessel get.mp3"); //load sound
 soundArray.push(wallSound); //add sound to list of sounds
+wallSound.player.volume.value = -5;
 
 export var paddleSound = new soundFile("silence.mp3");
 soundArray.push(paddleSound);
 
 export var scoreSound = new soundFile("item get.mp3");
 soundArray.push(scoreSound);
+scoreSound.player.volume.value = -5;
 
-export var ambientMusic = new soundFile("farewell.mp3");
+export var ambientMusic = new soundFile("gratitude.mp3");
 soundArray.push(ambientMusic);
 ambientMusic.player.loop = true; //turn on looping
 ambientMusic.player.volume.value = -10; //turn down volume
