@@ -43,12 +43,13 @@ export var soundArray = []; //list of sounds loaded
 
 //Here is where all the Sound File Players Start
 
-export var wallSound = new soundFile("tear vessel get.mp3"); //load sound
+export var wallSound = new soundFile("triforce.mp3"); //load sound
 soundArray.push(wallSound); //add sound to list of sounds
 wallSound.player.volume.value = -5;
 
-export var paddleSound = new soundFile("silence.mp3");
+export var paddleSound = new soundFile("tear vessel get.mp3");
 soundArray.push(paddleSound);
+paddleSound.player.volume.value = -5;
 
 export var scoreSound = new soundFile("item get.mp3");
 soundArray.push(scoreSound);
